@@ -1,8 +1,12 @@
+import { initialPageLoad } from './initial-page-load';
 import './style.css';
 
-console.log("test 123");
+initialPageLoad();
 
-const contentDiv = document.querySelector(".content");
-const testH1 = document.createElement("h1");
-testH1.textContent = "Test 12333";
-contentDiv.appendChild(testH1);
+// Tab Switcher Module 
+
+let tabsSwitch = (function() {
+
+    const inboxTab = document.querySelector(".inbox");
+    inboxTab.addEventListener("click", initialPageLoad);
+})();
