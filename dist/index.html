@@ -7,6 +7,27 @@
     <title>Todo List</title>
 </head>
 <body>
+    <header class="header">Todo List</header>
+
+    <main class="main">
+        <!--Default projects-->
+        <ul>
+            <li class="inbox">Inbox</li>
+            <li class="today">Today</li>
+            <li class="upcoming">Upcoming</li>
+        </ul>
+        <!--User projects-->
+        <div class="projects-div">
+        <h3>Projects</h3>
+            <button class="add-project-btn">Add Project</button>
+
+            <div class="popup">
+                <input type="text" class="input-project">
+                <button class="add-btn">Add</button>
+                <button class="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </main>
     <div class="content"></div>
     <script src="main.js"></script>
 </body>

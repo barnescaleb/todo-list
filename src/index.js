@@ -1,3 +1,5 @@
+import './style.css';
+
 console.log("test 123");
 
 const contentDiv = document.querySelector(".content");
