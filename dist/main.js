@@ -1,0 +1,1 @@
+(()=>{console.log("test 123");const e=document.querySelector(".content"),t=document.createElement("h1");t.textContent="Test 12333",e.appendChild(t)})();
