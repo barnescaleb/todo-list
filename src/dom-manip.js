@@ -1,6 +1,7 @@
 import { initialPageLoad  } from "./initial-page-load";
 
 
+
 // DOM maniptulation to display UI 
 export function displayDefaultProject() {
 
