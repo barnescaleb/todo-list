@@ -1,5 +1,5 @@
 import { initialPageLoad } from './initial-page-load.js';
-import { displayDefaultProject, displayTheForm, clearForm,  } from './dom-manip.js';
+import { displayDefaultProject, displayTheForm, clearForm, } from './dom-manip.js';
 import { createTodo} from './create-todo.js';
 import { today } from  './today.js';
 import './style.css';

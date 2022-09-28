@@ -1,4 +1,5 @@
 import { clearForm } from './dom-manip';
+import { saveToDoToLocal } from './local-storage.js'
 import { compareAsc, format, parseISO, startOfToday } from 'date-fns';
 
 // creates array for ToDo
@@ -15,14 +16,12 @@ export const createTodo = () => {
         return;
     }
 
-    // checks to verify correct date was entered 
-    // if (parseISO(DueDate) < startOfToday) {
-
-    // }
-
     // Todo 
     todoArray.push({ Title });
     console.log(todoArray);
+
+    // pushes object to local storage
+    saveToDoToLocal( { Title });
 
     // resets the form after submission 
     clearForm();

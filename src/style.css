@@ -42,3 +42,13 @@ li:hover {
     padding: 20px 40px;
 
 }
+
+.projects {
+    margin-top: 1rem;
+    background-color: aquamarine;
+}
+
+.card {
+    
+    font-size: 2rem;
+}
