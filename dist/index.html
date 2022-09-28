@@ -21,20 +21,25 @@
 
             <!--User projects-->
             <div class="projects-div">
-            <h3>Projects</h3>
-                <button class="add-project-btn">Add Project</button>
-
-                <div class="popup">
-                    <input type="text" class="input-project">
-                    <button class="add-btn">Add</button>
-                    <button class="cancel-btn">Cancel</button>
-                </div>
+                <h3>Projects</h3>
+                <button>Add Project</button>
             </div>
-            
+
         </div>
 
         <!--DOM content-->
-        <div class="content"></div>
+        <div class="content">
+            <div class="form">
+                <button class="add-project">Add Project</button>
+                <div id="add-todo-form" style="display:none;">
+                    <form id="add-todo">
+                        <input type="text" id="title" name="Title">
+                    </form>
+                    <button type="submit" class="add-btn">Add</button>
+                    <button type="reset" class="cancel-btn">Cancel</button>
+                </div>
+            </div>
+        </div>
 
     </main>
     <script src="main.js"></script>
